@@ -4,7 +4,7 @@ from yemot_flow import Flow, Call
 app = Flask(__name__)
 flow = Flow(print_log=True)
 
-@flow.get("stt")
+@flow.get("5")
 async def speech_demo(call: Call):
     name = await call.read([('text', 'אמור את שמך')], 
                           mode="stt", val_name="name", lang="he-IL")
