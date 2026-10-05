@@ -5,7 +5,7 @@
 """
 
 import logging
-from typing import Dict, list
+from typing import Dict, List
 from .providers import AIProvider
 from .session_store import SessionStore
 
