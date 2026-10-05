@@ -4,7 +4,7 @@ from yemot_flow import Flow, Call
 app = Flask(__name__)
 flow = Flow(print_log=True)
 
-@flow.get("8")
+@flow.get("5")
 async def welcome(call: Call):
     """שיחה פשוטה עם 3 קלטים"""
     
