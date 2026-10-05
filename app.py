@@ -12,7 +12,7 @@ ai = AI.create_gemini_ai(
     model="gemini-pro"
 )
 
-@flow.get("")
+@flow.get("5")
 async def welcome(call: Call):
     """שיחה עם AI"""
     call_id = call.params.get("ApiCallId")
